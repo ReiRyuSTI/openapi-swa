@@ -1,6 +1,6 @@
 {
   "name": "openapi-swa",
-  "packageManager": "yarn@4.0.0-rc.44",
+  "packageManager": "yarn@3.6.3",
   "scripts": {
     "mock": "prism mock specs/openapi.yml",
     "build": "npx @redocly/cli build-docs specs/openapi.yml -o out/index.html"
