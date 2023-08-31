@@ -85,7 +85,6 @@ paths:
           application/json:
             schema:
               $ref: "#/components/schemas/user"
-            examples: {}
         description: ""
 
 components:
