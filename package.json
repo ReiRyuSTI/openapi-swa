@@ -1,0 +1,14 @@
+{
+  "name": "openapi-swa",
+  "packageManager": "yarn@4.0.0-rc.44",
+  "scripts": {
+    "mock": "prism mock specs/openapi.yml",
+    "build": "npx @redocly/cli build-docs specs/openapi.yml -o out/index.html"
+  },
+  "dependencies": {
+    "@stoplight/prism-cli": "^5.3.1",
+    "api-spec-converter": "^2.12.0",
+    "redoc": "^2.1.1",
+    "redoc-cli": "^0.13.21"
+  }
+}
