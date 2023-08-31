@@ -6,6 +6,7 @@
     "build": "npx @redocly/cli build-docs specs/openapi.yml -o out/index.html"
   },
   "dependencies": {
+    "@redocly/cli": "^1.0.2",
     "@stoplight/prism-cli": "^5.3.1",
     "api-spec-converter": "^2.12.0",
     "redoc": "^2.1.1",
